@@ -424,3 +424,76 @@ body {
     line-height: 150%;
 }
 
+.coffee__cards {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 310px;
+    border: 1px solid #C1B6AD;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+.card__img{
+    border-radius: 40px;
+}
+
+.card__text {
+    /* padding: 20px;
+    width: 270px; */
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.card__h {
+
+    font-family: 'Inter-SB', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #403F3D;
+    padding-bottom: 12px;
+}
+
+.card__p {
+
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 12px;
+
+}
+
+.card__price {
+    font-family: 'Inter-SB', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cards__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
