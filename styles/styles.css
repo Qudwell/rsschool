@@ -438,6 +438,11 @@ body {
     border: 1px solid #C1B6AD;
     border-radius: 40px;
     margin-bottom: 40px;
+    transition: 0.2s;
+}
+
+.card:hover{
+    transform: scale(0.95);
 }
 
 .card__img{
